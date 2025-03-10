@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "Sassenpoort",
+      "info": "A well-preserved medieval city gate from the late 14th century, once part of the city's fortifications.",
+      "time": "Late 14th century",
+      "location": "Zwolle, Netherlands",
+      "locationOld": "1498,939,NaN"
+    },
+    {
+      "id": 2,
+      "name": "Peperbus Tower (Onze Lieve Vrouwekerk)",
+      "info": "A striking 15th-century church with a towering spire offering panoramic views of the city.",
+      "time": "15th century",
+      "location": "1062,1615,NaN",
+      "locationOld": "Zwolle, Netherlands"
+    },
+    {
+      "id": 3,
+      "name": "Museum de Fundatie",
+      "info": "A former palace of justice, now a museum housing an impressive art collection.",
+      "time": "N/A",
+      "location": "1443,1458,NaN",
+      "locationOld": "Zwolle, Netherlands"
+    },
+    {
+      "id": 4,
+      "name": "St. Michael’s Church (Grote Kerk)",
+      "info": "A Gothic church dating back to the 15th century, known for its historic organ.",
+      "time": "15th century",
+      "location": "1130,1343,NaN",
+      "locationOld": "Zwolle, Netherlands"
+    },
+    {
+      "id": 5,
+      "name": "Synagoge",
+      "info": "A Gothic church dating back to the 15th century, known for its historic organ.",
+      "time": "15th century",
+      "location": "1293,852,NaN",
+      "locationOld": "Zwolle, Netherlands"
+    }
+  ]
+  
