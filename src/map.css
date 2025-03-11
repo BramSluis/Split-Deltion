@@ -1,0 +1,74 @@
+/* Centering the Map */
+.map-wrapper {
+    position: relative;
+    width: 800px; /* Slightly bigger */
+    height: 600px; /* Slightly bigger */
+    margin: 0 auto; /* Centers the map horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sidebar Menu */
+.sidebar {
+    width: 200px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu Content (Stacked Layout) */
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Ensures spacing between items */
+}
+
+.menu-content label {
+    font-weight: bold;
+}
+
+.menu-content select,
+.menu-content input[type="range"] {
+    width: 100%;
+}
+
+/* Map Images */
+.map-container-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Ensure the page stretches */
+html, body {
+    min-height: 150vh; /* Adjust this to make it even longer */
+}
+
+/* Ensure the main wrapper is tall */
+.map-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer {
+    width: 100%;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+}
