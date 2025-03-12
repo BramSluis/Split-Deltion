@@ -35,6 +35,7 @@ function Map() {
                     {menuOpen ? "←" : "→"}
                 </button>
                 <div className="menu-content">
+                    <h2>The map</h2>
                     <label>Choose Base Map:</label>
                     <select onChange={mapChange} defaultValue="newMap">
                         <option value="newMap">New Map</option>

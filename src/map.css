@@ -1,9 +1,12 @@
 /* Centering the Map */
 .map-wrapper {
     position: relative;
-    width: 800px; /* Slightly bigger */
-    height: 600px; /* Slightly bigger */
-    margin: 0 auto; /* Centers the map horizontally */
+    width: 800px;
+    /* Slightly bigger */
+    height: 600px;
+    /* Slightly bigger */
+    margin: 0 auto;
+    /* Centers the map horizontally */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +25,8 @@
 .menu-content {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Ensures spacing between items */
+    gap: 10px;
+    /* Ensures spacing between items */
 }
 
 .menu-content label {
@@ -48,11 +52,14 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    z-index: -1;
 }
 
 /* Ensure the page stretches */
-html, body {
-    min-height: 150vh; /* Adjust this to make it even longer */
+html,
+body {
+    min-height: 150vh;
+    /* Adjust this to make it even longer */
 }
 
 /* Ensure the main wrapper is tall */
