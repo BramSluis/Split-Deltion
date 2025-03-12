@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from "react";
 import "./map.css";
 import newMap from "./mapsImages/satelite.png";
